@@ -10,12 +10,12 @@ export default function Calculator() {
   const [value, setValue] = useState(0);
 
   const handleAddClick = () => {
-    setCalcState({ total: calcState.total + value, previousTotal: calcState.total});
+    setCalcState({ total: calcState.total + value, previousTotal: calcState.total });
   };
 
   return (
     <div className="calculator">
-      <h2>Simple Calculator</h2>
+      <h2>Simple Calculator test</h2>
       <p>
         <input
           type="text"
